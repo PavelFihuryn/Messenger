@@ -77,7 +77,7 @@ def send_message():
 
     # Бот запросы
     if text[0] == '/':
-        words = text.split()  # Реализацию нужно поправить
+        words = text.split()
         key = words[0]
         value = ''
         for i in range(1, len(words)):
